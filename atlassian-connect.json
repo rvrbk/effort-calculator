@@ -1,0 +1,27 @@
+{
+    "name": "Effort Calculator",
+    "description": "Calculate effort",
+    "key": "com.example.myawesomeaddon",
+    "baseUrl": "https://myaddon.example.com",
+    "vendor": {
+      "name": "Optimizers",
+      "url": "https://www.optimizers.com"
+    },
+    "authentication": {
+      "type": "jwt"
+    },
+    "scopes": ["READ", "WRITE"],
+    "apiVersion": 1,
+    "modules": {
+      "generalPages": [
+        {
+          "url": "/",
+          "key": "index",
+          "name": {
+            "value": "Effort Calculator"
+          }
+        }
+      ]
+    }
+  }
+  

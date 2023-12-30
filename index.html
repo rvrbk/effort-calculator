@@ -1,0 +1,27 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Parcel Project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="flex justify-center items-center h-screen">
+        <div class="p-7">
+            <div class="flex justify-between"><span>Open</span><input class="w-12 p-1 mb-2 text-base text-gray-700 bg-white border border-gray-300 focus:outline-none focus:border-blue-500" type="number" placeholder="Nr of open issues" name="open"></div>
+            <div class="flex justify-between"><span>In progress</span><input class="w-12 p-1 text-base text-gray-700 bg-white border border-gray-300 focus:outline-none focus:border-blue-500" type="number" placeholder="Nr of in progress issues" name="progress"></div>
+        </div>
+        <div class="jp-7">
+            <div class="flex justify-between"><span class="pr-4">Roadmap:</span><span><span id="roadmap">0</span>sp</span></div>
+            <div class="flex justify-between"><span class="pr-4">Requests:</span><span><span id="requests">0</span>sp</span></div>
+            <div class="flex justify-between"><span class="pr-4">Technical debt:</span><span><span id="technicaldebt">0</span>sp</span></div>
+            <div class="flex justify-between"><span class="pr-4">Custom adjustments:</span><span><span id="customadjustments">0</span>sp</span></div>
+            <div class="flex justify-between"><span class="pr-4">Total:</span><span><span id="total">0</span>sp</span></div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

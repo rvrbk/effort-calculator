@@ -1,0 +1,33 @@
+{
+    "manifestVersion": 1,
+    "id": "EffortCalculator",
+    "name": "Effort Calculator",
+    "version": "1.0.0",
+    "publisher": "Rvrbk",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "description": "Calculate the effort you can use in a sprint",
+    "categories": ["Azure Repos", "Azure Boards"],
+    "tags": ["sprint", "effort"],
+    "files": [
+        {
+            "path": "dist",
+            "addressable": true
+        }
+    ],
+    "contributions": [
+        {
+            "id": "contribution-id",
+            "type": "ms.vss-web.hub",
+            "targets": ["target-for-your-contribution"],
+            "properties": {
+                "name": "Name of Contribution",
+                "uri": "path-to-your-contribution"
+            }
+        }
+    ],
+    "scopes": ["vso.work"]
+}
